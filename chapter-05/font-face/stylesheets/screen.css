@@ -1,0 +1,22 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@font-face {
+  font-family: "ChunkFiveRegular";
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: url('fonts/Chunkfive-webfont.eot?iefix') format('eot'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('ttf'), url('fonts/Chunkfive-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 10, ../sass/screen.scss */
+body {
+  padding: 2em;
+}
+
+/* line 14, ../sass/screen.scss */
+h1 {
+  font-family: 'ChunkFiveRegular';
+  font-size: 2em;
+}

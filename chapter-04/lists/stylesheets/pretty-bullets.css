@@ -1,0 +1,10 @@
+/* line 3, ../sass/pretty-bullets.scss */
+ul.features {
+  margin-left: 0;
+}
+/* line 29, /Users/imathis/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+ul.features li {
+  padding-left: 14px;
+  background: url('/images/bullet.png?1350199123') no-repeat 3.5px 0.5px;
+  list-style-type: none;
+}

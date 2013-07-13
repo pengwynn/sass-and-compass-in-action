@@ -1,0 +1,29 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/typography";
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  @include debug-vertical-alignment("../images/debug.png");
+}
+
+h1 {@include adjust-font-size-to(48px)}
+h2 {@include adjust-font-size-to(36px)}
+h3 {@include adjust-font-size-to(24px)}
+h4 {@include adjust-font-size-to(20px)}
+h5 {@include adjust-font-size-to(18px)}
+p {@include leader; @include trailer;}
+h2.important {@include leader(2); @include trailer(2)}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+#wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+/* line 18, ../sass/screen.scss */
+.motion {
+  text-shadow: rgba(0, 0, 0, 0.5) -200px 0 0, rgba(0, 0, 0, 0.4) -400px 0 0, rgba(0, 0, 0, 0.3) -600px 0 0, rgba(0, 0, 0, 0.2) -800px 0 0;
+  font-size: 2em;
+  font-style: italic;
+  text-align: right;
+}
+
+/* line 25, ../sass/screen.scss */
+.skipping {
+  text-shadow: rgba(0, 0, 0, 0.4) -400px 0 0, rgba(0, 0, 0, 0.2) -800px 0 0;
+}

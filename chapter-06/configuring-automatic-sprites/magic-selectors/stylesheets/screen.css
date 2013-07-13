@@ -1,0 +1,10 @@
+.icons-sprite, .next {
+  background: url('/images/icons-sa719fde9ed.png') no-repeat;
+}
+
+.next {
+  background-position: -32px 0;
+}
+.next:hover, .next.arrow-hover {
+  background-position: -48px -96px;
+}

@@ -1,0 +1,11 @@
+.spritey-mcspriterson, .next {
+  background: url('/images/icons-s978552be4a.png') no-repeat;
+}
+
+.spritey-mcspriterson, .next {
+  overflow: hidden;
+}
+
+.next {
+  background-position: 0 -70px;
+}

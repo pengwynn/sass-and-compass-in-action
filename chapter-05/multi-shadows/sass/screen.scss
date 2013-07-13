@@ -1,0 +1,45 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+
+#wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.motion {
+  @include text-shadow(
+    rgba(#000,.5) -200px 0 0,
+    rgba(#000,.4) -400px 0 0,
+    rgba(#000,.3) -600px 0 0,
+    rgba(#000,.2) -800px 0 0
+  );
+  font-size: 2em;
+  font-style: italic;
+  text-align: right;
+}
+
+.simon {
+  @include border-radius(100px);
+  @include box-shadow(
+    black 0 0 0 25px,
+    red 0 -50px 0,
+    blue 50px -0px 0,
+    yellow 0 50px 0,
+    lime -50px 0 0
+  );
+  background: #999;
+  color: #fff;
+  height: 50px;
+  margin: 100px auto;
+  padding: 40px;
+  text-align: center;
+  width: 50px;
+}
+
+strong {
+  font-size: 20px;
+}

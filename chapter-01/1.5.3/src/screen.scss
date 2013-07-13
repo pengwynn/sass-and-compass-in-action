@@ -1,0 +1,14 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/utilities/tables";
+
+ 
+table {
+  $table-color: #666;
+  @include table-scaffolding;
+  @include inner-table-borders(1px, darken($table-color, 40%));
+  @include outer-table-borders(2px);
+  @include alternating-rows-and-columns($table-color, adjust-hue($table-color, -120deg), #222222); }

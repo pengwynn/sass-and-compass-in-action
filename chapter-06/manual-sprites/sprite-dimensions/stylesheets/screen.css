@@ -1,0 +1,9 @@
+.sprite-base, .next {
+  background: url('/images/icons-s943de15a54.png') no-repeat;
+}
+
+.next {
+  background-position: 0 -70px;
+  height: 32px;
+  width: 32px;
+}

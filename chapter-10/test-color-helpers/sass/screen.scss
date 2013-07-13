@@ -1,0 +1,11 @@
+@import "color-helpers";
+
+body {
+  background: #555;
+  color: text-contrast(#555);
+}
+
+div {
+  background: #50535e;
+  color: text-contrast(#50535e, $dark-text: #353942, $light-text: #9096a5);
+}

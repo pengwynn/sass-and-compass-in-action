@@ -1,0 +1,21 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+body {
+  font-family: "Helvetica Neue";
+  padding: 2em;
+}
+
+/* line 14, ../sass/screen.scss */
+h1 {
+  -moz-transform: perspective 500px rotateY 20deg;
+  -webkit-transform: perspective 500px rotateY 20deg;
+  -o-transform: perspective 500px rotateY 20deg;
+  -ms-transform: perspective 500px rotateY 20deg;
+  transform: perspective 500px rotateY 20deg;
+  font-weight: normal;
+  margin: 100px auto;
+  width: 300px;
+}

@@ -1,0 +1,16 @@
+@mixin horizontal-list {
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+#header ul.nav {
+  @include horizontal-list;
+  float: right;
+}
+
+#footer ul.nav {
+  @include horizontal-list;
+  margin-top: 1em;
+}

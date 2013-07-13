@@ -1,0 +1,11 @@
+.sprite-base, .next, .add-button {
+  background: url('/images/icons-s943de15a54.png') no-repeat;
+}
+
+.next {
+  background-position: 0 -70px;
+}
+
+.add-button {
+  background-position: 0 -358px;
+}

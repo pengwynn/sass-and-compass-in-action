@@ -1,0 +1,7 @@
+.icons-sprite, .next {
+  background: url('/images/icons-sb3deb50016.png') no-repeat;
+}
+
+.next {
+  background-position: 0 -86px;
+}

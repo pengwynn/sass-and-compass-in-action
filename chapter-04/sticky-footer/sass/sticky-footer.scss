@@ -1,0 +1,3 @@
+@import "compass/layout";
+
+@include sticky-footer(40px, "#content", "#footer", "#sticky-footer");

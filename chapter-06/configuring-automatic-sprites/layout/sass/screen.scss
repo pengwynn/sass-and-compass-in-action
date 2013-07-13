@@ -1,0 +1,8 @@
+@import "compass/utilities/sprites";
+$icons-layout: smart;
+@import "icons/*.png";
+
+.next {
+  @include icons-sprite(arrow);
+}
+

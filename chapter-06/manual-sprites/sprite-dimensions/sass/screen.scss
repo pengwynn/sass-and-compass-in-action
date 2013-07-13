@@ -1,0 +1,9 @@
+@import "compass/utilities/sprites";
+$icons: sprite-map("icons/*.png");
+.sprite-base { background: $icons no-repeat; }
+
+.next {
+  @extend .sprite-base;
+  @include sprite-background-position($icons, arrow);
+  @include sprite-dimensions($icons, arrow);
+}

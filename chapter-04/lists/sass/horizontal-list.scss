@@ -1,0 +1,5 @@
+@import "compass/typography";
+
+ul.nav {
+  @include horizontal-list;
+}

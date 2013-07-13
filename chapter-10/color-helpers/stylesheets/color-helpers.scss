@@ -1,0 +1,8 @@
+// Returns true if the color is brighter than 50% lightness
+@function is-bright() {
+  @return (lightness() > lightness(hsl(0,0,50%)));
+}
+// Picks the color with the highest contrast
+@function contrast-color(, : #fff, : #000) {
+  @return if (is-bright(), , );
+}

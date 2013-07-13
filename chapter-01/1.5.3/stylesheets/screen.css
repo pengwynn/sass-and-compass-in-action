@@ -1,0 +1,84 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../src/screen.scss */
+table {
+  border: 2px solid black;
+}
+/* line 2, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+table th {
+  text-align: center;
+  font-weight: bold;
+}
+/* line 6, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+table td,
+table th {
+  padding: 2px;
+}
+/* line 8, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+table td.numeric,
+table th.numeric {
+  text-align: right;
+}
+/* line 14, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th, table td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+/* line 21, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th:last-child, table th.last, table td:last-child, table td.last {
+  border-right-width: 0px;
+}
+/* line 26, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table tbody tr:last-child th, table tbody tr:last-child td,
+table tbody tr.last th,
+table tbody tr.last td, table tfoot tr:last-child th, table tfoot tr:last-child td, table tfoot tr.last th, table tfoot tr.last td {
+  border-bottom-width: 0px;
+}
+/* line 4, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table thead th {
+  border-bottom: 2px solid black;
+}
+/* line 7, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table tfoot th, table tfoot td {
+  border-top: 2px solid black;
+}
+/* line 10, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+table th:first-child {
+  border-right: 2px solid black;
+}
+/* line 2, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table th {
+  background-color: white;
+}
+/* line 4, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table th.even, table th:nth-child(2n) {
+  background-color: #dddddd;
+}
+/* line 7, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.odd td {
+  background-color: #666666;
+}
+/* line 9, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.odd td.even, table tr.odd td:nth-child(2n) {
+  background-color: #444444;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.even td {
+  background-color: #666666;
+}
+/* line 14, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tr.even td.even, table tr.even td:nth-child(2n) {
+  background-color: #444444;
+}
+/* line 17, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tfoot th, table tfoot td {
+  background-color: white;
+}
+/* line 19, ../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+table tfoot th.even, table tfoot th:nth-child(2n), table tfoot td.even, table tfoot td:nth-child(2n) {
+  background-color: #dddddd;
+}

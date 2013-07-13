@@ -1,0 +1,6 @@
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+
+.add-button {
+  @include icons-sprite(box-add);
+}

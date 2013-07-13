@@ -1,0 +1,10 @@
+@import "compass/utilities/sprites";
+$icons: sprite-map("icons/*.png");
+
+.next {
+  background: sprite($icons, arrow) no-repeat; 
+}
+
+.add-button {
+  background: sprite($icons, box-add) no-repeat; 
+}

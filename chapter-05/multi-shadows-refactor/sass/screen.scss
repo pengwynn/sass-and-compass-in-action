@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+
+#wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+$shadow-1: rgba(#000,.5) -200px 0 0;
+$shadow-2: rgba(#000,.4) -400px 0 0;
+$shadow-3: rgba(#000,.3) -600px 0 0;
+$shadow-4: rgba(#000,.2) -800px 0 0;
+
+.motion {
+  @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4);
+  font-size: 2em;
+  font-style: italic;
+  text-align: right;
+}
+
+.skipping {
+  @include text-shadow($shadow-2, $shadow-4);
+}

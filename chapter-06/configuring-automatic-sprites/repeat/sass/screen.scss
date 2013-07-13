@@ -1,0 +1,7 @@
+@import "compass/utilities/sprites";
+$icons-arrow-repeat: repeat-x;
+@import "icons/*.png";
+
+.next {
+  @include icons-sprite(arrow);
+}

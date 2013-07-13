@@ -1,0 +1,31 @@
+/* line 3, ../sass/horizontal-list.scss */
+ul.nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 60, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+ul.nav li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+ul.nav li:first-child, ul.nav li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+ul.nav li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+ul.nav li.last {
+  padding-right: 0;
+}

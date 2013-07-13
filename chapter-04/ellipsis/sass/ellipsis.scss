@@ -1,0 +1,5 @@
+@import "compass/typography";
+
+td.dot-dot-dot {
+  @include ellipsis;
+}

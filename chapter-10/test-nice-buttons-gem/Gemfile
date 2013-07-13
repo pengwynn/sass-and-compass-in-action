@@ -1,0 +1,6 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+group :assets do
+  gem "nice-buttons", :path => "../nice-buttons-gem"
+end

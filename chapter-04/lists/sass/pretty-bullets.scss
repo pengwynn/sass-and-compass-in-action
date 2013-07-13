@@ -1,0 +1,5 @@
+@import "compass/typography";
+
+ul.features {
+  @include pretty-bullets('bullet.png')
+}

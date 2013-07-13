@@ -1,0 +1,24 @@
+/* line 10, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#content {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -40px;
+}
+/* line 18, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#content #footer {
+  height: 40px;
+}
+
+/* line 20, ../../../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#sticky-footer {
+  clear: both;
+  position: relative;
+  height: 40px;
+}

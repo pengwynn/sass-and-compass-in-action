@@ -1,0 +1,16 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+#pattern {
+  background: -webkit-gradient(linear, 360deg, 360deg, color-stop(0%, #bfbfbf), color-stop(12.5%, #bfbfbf), color-stop(12.5%, #bfbf00), color-stop(25%, #bfbf00), color-stop(25%, #00bfbf), color-stop(37.5%, #00bfbf), color-stop(37.5%, #bfbf00), color-stop(37.5%, #00bf00), color-stop(50%, #00bf00), color-stop(50%, #bf00bf), color-stop(62.5%, #bf00bf), color-stop(62.5%, #bf0000), color-stop(75%, #bf0000), color-stop(75%, #0000bf), color-stop(87.5%, #0000bf), color-stop(87.5%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(360deg, #bfbfbf 0%, #bfbfbf 12.5%, #bfbf00 12.5%, #bfbf00 25%, #00bfbf 25%, #00bfbf 37.5%, #bfbf00 37.5%, #00bf00 37.5%, #00bf00 50%, #bf00bf 50%, #bf00bf 62.5%, #bf0000 62.5%, #bf0000 75%, #0000bf 75%, #0000bf 87.5%, #000000 87.5%, #000000 100%);
+  background: -moz-linear-gradient(360deg, #bfbfbf 0%, #bfbfbf 12.5%, #bfbf00 12.5%, #bfbf00 25%, #00bfbf 25%, #00bfbf 37.5%, #bfbf00 37.5%, #00bf00 37.5%, #00bf00 50%, #bf00bf 50%, #bf00bf 62.5%, #bf0000 62.5%, #bf0000 75%, #0000bf 75%, #0000bf 87.5%, #000000 87.5%, #000000 100%);
+  background: -o-linear-gradient(360deg, #bfbfbf 0%, #bfbfbf 12.5%, #bfbf00 12.5%, #bfbf00 25%, #00bfbf 25%, #00bfbf 37.5%, #bfbf00 37.5%, #00bf00 37.5%, #00bf00 50%, #bf00bf 50%, #bf00bf 62.5%, #bf0000 62.5%, #bf0000 75%, #0000bf 75%, #0000bf 87.5%, #000000 87.5%, #000000 100%);
+  background: -ms-linear-gradient(360deg, #bfbfbf 0%, #bfbfbf 12.5%, #bfbf00 12.5%, #bfbf00 25%, #00bfbf 25%, #00bfbf 37.5%, #bfbf00 37.5%, #00bf00 37.5%, #00bf00 50%, #bf00bf 50%, #bf00bf 62.5%, #bf0000 62.5%, #bf0000 75%, #0000bf 75%, #0000bf 87.5%, #000000 87.5%, #000000 100%);
+  background: linear-gradient(360deg, #bfbfbf 0%, #bfbfbf 12.5%, #bfbf00 12.5%, #bfbf00 25%, #00bfbf 25%, #00bfbf 37.5%, #bfbf00 37.5%, #00bf00 37.5%, #00bf00 50%, #bf00bf 50%, #bf00bf 62.5%, #bf0000 62.5%, #bf0000 75%, #0000bf 75%, #0000bf 87.5%, #000000 87.5%, #000000 100%);
+  height: 300px;
+  margin: 100px auto;
+  width: 400px;
+}

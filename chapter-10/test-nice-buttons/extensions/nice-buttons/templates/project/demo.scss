@@ -1,0 +1,17 @@
+@import 'nice-buttons';
+
+html {
+  text-align: center;
+  font-family: Helvetica, Arial, sans;
+  background: #f4f4f4;
+}
+body {
+  position: absolute;
+  top: 30px; left: 30px; bottom: 30px; right: 30px;
+  padding-top: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+} 
+
+button  { @include nice-button }
+.button { @include nice-button(#494e57) }

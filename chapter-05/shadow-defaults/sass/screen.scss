@@ -1,0 +1,39 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+
+#wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+$shadow-color: #ccc;
+$shadow-h: 5px;
+$shadow-v: 5px;
+$shadow-blur: 0;
+
+$default-text-shadow-color: $shadow-color;
+$default-text-shadow-h-offset: $shadow-h;
+$default-text-shadow-v-offset: $shadow-v;
+$default-text-shadow-blur: $shadow-blur;
+
+$default-box-shadow-color: $shadow-color;
+$default-box-shadow-h-offset: $shadow-h;
+$default-box-shadow-v-offset: $shadow-v;
+$default-box-shadow-blur: $shadow-blur;
+
+h1, h2 {font-family: sans-serif;}
+
+h1 {
+ @include text-shadow;
+}
+
+h2 {
+  @include box-shadow;
+  @include single-text-shadow(#ddd, -1px, 1px);
+  background: #999;
+  padding: 1em;
+}

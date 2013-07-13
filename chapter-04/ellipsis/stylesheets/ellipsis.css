@@ -1,0 +1,8 @@
+/* line 3, ../sass/ellipsis.scss */
+td.dot-dot-dot {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,11 @@
+@import "compass/utilities/sprites";
+$icons-sprite-base-class: ".spritey-mcspriterson"; 
+@import "icons/*.png";
+
+.spritey-mcspriterson {
+  overflow: hidden;
+}
+
+.next {
+  @include icons-sprite(arrow);
+}

@@ -1,0 +1,14 @@
+@import "compass/utilities/sprites";
+// Uncomment the next line to automatically assign dimensions for all sprites
+// $icons-sprite-dimensions: true; 
+@import "icons/*.png";
+
+.next {
+  @include icons-sprite(arrow);
+  width: icons-sprite-width(arrow);
+  height: icons-sprite-height(arrow);
+}
+
+.add-button {
+  @include icons-sprite(box-add);
+}

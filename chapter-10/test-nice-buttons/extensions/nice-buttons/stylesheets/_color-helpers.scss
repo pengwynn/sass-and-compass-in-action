@@ -1,0 +1,14 @@
+// Returns true if the color is brighter than 50% lightness
+@function is-bright($color) {
+  @return (lightness($color) > 50%);
+}
+
+// Picks the color with the highest contrast
+@function if-bright($bg, $light: true, $dark: false) {
+  @return if(is-bright($bg), $light, $dark);
+}
+
+// Picks the color with the highest contrast
+@function text-contrast($bg, $dark-text: #000, $light-text: #fff) {
+  @return if-bright($bg, $dark-text, $light-text);
+}

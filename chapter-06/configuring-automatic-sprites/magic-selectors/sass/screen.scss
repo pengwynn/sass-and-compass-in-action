@@ -1,0 +1,9 @@
+@import "compass/utilities/sprites";
+// Uncomment the next line to disable magic sprite selectors
+// $disable-magic-sprite-selectors: true
+@import "icons/*.png";
+
+.next {
+  @include icons-sprite(arrow);
+}
+

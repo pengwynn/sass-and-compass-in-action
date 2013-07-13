@@ -1,0 +1,103 @@
+/* line 19, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+button, .button {
+  font: normal 16px "Lucida Grande", Lucida, Arial, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  margin-bottom: .3em;
+  cursor: pointer;
+  padding: .5em 1.2em;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: background-color, box-shadow 0.15s;
+  -moz-transition: background-color, box-shadow 0.15s;
+  -ms-transition: background-color, box-shadow 0.15s;
+  -o-transition: background-color, box-shadow 0.15s;
+  transition: background-color, box-shadow 0.15s;
+}
+/* line 15, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+button:active, .button:active, button:hover, .button:hover {
+  outline: none;
+}
+
+/* line 3, ../sass/demo.scss */
+html {
+  text-align: center;
+  font-family: Helvetica, Arial, sans;
+  background: #f4f4f4;
+}
+
+/* line 8, ../sass/demo.scss */
+body {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  bottom: 30px;
+  right: 30px;
+  padding-top: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 16, ../sass/demo.scss */
+button {
+  background-color: #eeeeee;
+  border-color: #bebebe;
+  color: black;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(252, 252, 252, 0.7)), color-stop(50%, rgba(241, 241, 241, 0.7)), color-stop(50%, rgba(233, 233, 233, 0.7)), color-stop(100%, rgba(214, 214, 214, 0.7)));
+  background-image: -webkit-linear-gradient(rgba(252, 252, 252, 0.7), rgba(241, 241, 241, 0.7) 50%, rgba(233, 233, 233, 0.7) 50%, rgba(214, 214, 214, 0.7));
+  background-image: -moz-linear-gradient(rgba(252, 252, 252, 0.7), rgba(241, 241, 241, 0.7) 50%, rgba(233, 233, 233, 0.7) 50%, rgba(214, 214, 214, 0.7));
+  background-image: -o-linear-gradient(rgba(252, 252, 252, 0.7), rgba(241, 241, 241, 0.7) 50%, rgba(233, 233, 233, 0.7) 50%, rgba(214, 214, 214, 0.7));
+  background-image: -ms-linear-gradient(rgba(252, 252, 252, 0.7), rgba(241, 241, 241, 0.7) 50%, rgba(233, 233, 233, 0.7) 50%, rgba(214, 214, 214, 0.7));
+  background-image: linear-gradient(rgba(252, 252, 252, 0.7), rgba(241, 241, 241, 0.7) 50%, rgba(233, 233, 233, 0.7) 50%, rgba(214, 214, 214, 0.7));
+  text-shadow: #f2f2f2 0 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.6) 0 0 1px 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.6) 0 0 1px 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.6) 0 0 1px 1px inset;
+}
+/* line 50, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+button:hover, button:focus {
+  background-color: #fcfcfc;
+}
+/* line 54, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+button:active {
+  background: #f2f2f2;
+  border-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: rgba(59, 59, 59, 0.4) 0 2px 12px inset;
+  -moz-box-shadow: rgba(59, 59, 59, 0.4) 0 2px 12px inset;
+  box-shadow: rgba(59, 59, 59, 0.4) 0 2px 12px inset;
+}
+
+/* line 17, ../sass/demo.scss */
+.button {
+  background-color: #494e57;
+  border-color: #3a3e46;
+  color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(141, 147, 159, 0.7)), color-stop(50%, rgba(89, 95, 106, 0.7)), color-stop(50%, rgba(69, 74, 83, 0.7)), color-stop(100%, rgba(58, 62, 70, 0.7)));
+  background-image: -webkit-linear-gradient(rgba(141, 147, 159, 0.7), rgba(89, 95, 106, 0.7) 50%, rgba(69, 74, 83, 0.7) 50%, rgba(58, 62, 70, 0.7));
+  background-image: -moz-linear-gradient(rgba(141, 147, 159, 0.7), rgba(89, 95, 106, 0.7) 50%, rgba(69, 74, 83, 0.7) 50%, rgba(58, 62, 70, 0.7));
+  background-image: -o-linear-gradient(rgba(141, 147, 159, 0.7), rgba(89, 95, 106, 0.7) 50%, rgba(69, 74, 83, 0.7) 50%, rgba(58, 62, 70, 0.7));
+  background-image: -ms-linear-gradient(rgba(141, 147, 159, 0.7), rgba(89, 95, 106, 0.7) 50%, rgba(69, 74, 83, 0.7) 50%, rgba(58, 62, 70, 0.7));
+  background-image: linear-gradient(rgba(141, 147, 159, 0.7), rgba(89, 95, 106, 0.7) 50%, rgba(69, 74, 83, 0.7) 50%, rgba(58, 62, 70, 0.7));
+  text-shadow: #373b41 0 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px 1px inset;
+}
+/* line 50, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+.button:hover, .button:focus {
+  background-color: #717987;
+}
+/* line 54, ../extensions/nice-buttons/stylesheets/nice-buttons.scss */
+.button:active {
+  background: #595f6a;
+  border-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: rgba(36, 39, 43, 0.9) 0 2px 12px inset;
+  -moz-box-shadow: rgba(36, 39, 43, 0.9) 0 2px 12px inset;
+  box-shadow: rgba(36, 39, 43, 0.9) 0 2px 12px inset;
+}

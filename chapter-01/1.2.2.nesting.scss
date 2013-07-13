@@ -1,0 +1,13 @@
+ul.nav {
+  float: right;
+  
+  li {
+    float: left;
+    a {
+      color: #111;
+    }
+    &.current {
+      font-weight: bold;
+    }
+  }
+}

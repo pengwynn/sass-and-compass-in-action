@@ -1,0 +1,62 @@
+@import "compass/css3";
+@import "color-helpers";
+
+// Button style reset and basic styles
+@mixin nb-reset() {
+  font: normal 16px "Lucida Grande", Lucida, Arial, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  margin-bottom: .3em;
+  cursor: pointer;
+  padding: .5em 1.2em;
+  display: inline-block;
+  border: { width: 1px; style: solid }
+  @include border-radius(.3em);
+  &:active, &:hover { outline: none }
+  @include transition(background-color,box-shadow .15s);
+}
+
+%nb-reset { @include nb-reset; }
+
+// Automate the gradient picking with simple color shifting
+@mixin nb-gradient($bg) {
+  $top:      scale-color($bg, $lightness: if-bright($bg,80%,40%));
+  $middle-1: scale-color($bg, $lightness: if-bright($bg,20%,10%));
+  $middle-2: scale-color($bg, $lightness: if-bright($bg,-2%,-5%));
+  $bottom:   scale-color($bg, $lightness: if-bright($bg,-10%,-20%));
+
+  @include background-image(linear-gradient(
+    $top, $middle-1 50%, $middle-2 50%, $bottom));
+}
+
+
+@mixin nice-button($bg: #eee) {
+  @extend %nb-reset;
+
+  // Normal styles
+  background-color: $bg;
+  border-color: scale-color($bg, $lightness: -20%);
+  color: text-contrast($bg);
+  @include nb-gradient(rgba($bg, .7)); // alpha shows color transitions
+
+  text-shadow: scale-color($bg, $lightness: 
+    if-bright($bg,25%,-25%)) 0 1px 1px;
+  @include box-shadow(rgba(#fff, 
+    if-bright($bg,.6,.2)) 0 0 1px 1px inset);
+
+  // State styles
+  &:hover, &:focus {
+    background-color: scale-color($bg, $lightness: if-bright($bg, 85%, 25%));
+  }
+
+  &:active {
+    background: scale-color($bg,
+      $lightness: if-bright($bg, 25%, 10%));
+    border-color: rgba(#000, if-bright($bg, .4, .8)); 
+    @include box-shadow(
+      if-bright($bg,
+        rgba(mix($bg, #000, 25%), .4), rgba(mix($bg, #000), .9)
+      ) 0 2px 12px inset
+    );
+  }
+}

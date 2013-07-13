@@ -1,0 +1,91 @@
+.icons-sprite, .icons-arrow, .icons-attachment, .icons-box-add, .icons-cancel3, .icons-checkmark, .icons-cloud-download, .icons-coffee, .icons-cog2, .icons-comment, .icons-compass-logo-small-light, .icons-exit, .icons-feed, .icons-file, .icons-folder3, .icons-heart, .icons-info, .icons-menu, .icons-pencil, .icons-redo2, .icons-star-empty, .icons-star-half, .icons-star {
+  background: url('/images/icons-s978552be4a.png') no-repeat;
+}
+
+.icons-arrow {
+  background-position: 0 -70px;
+}
+
+.icons-attachment {
+  background-position: 0 -102px;
+}
+
+.icons-box-add {
+  background-position: 0 -358px;
+}
+
+.icons-cancel3 {
+  background-position: 0 -230px;
+}
+
+.icons-checkmark {
+  background-position: 0 -550px;
+}
+
+.icons-cloud-download {
+  background-position: 0 -262px;
+}
+
+.icons-coffee {
+  background-position: 0 -38px;
+}
+
+.icons-cog2 {
+  background-position: 0 -134px;
+}
+
+.icons-comment {
+  background-position: 0 -166px;
+}
+
+.icons-compass-logo-small-light {
+  background-position: 0 0;
+}
+
+.icons-exit {
+  background-position: 0 -534px;
+}
+
+.icons-feed {
+  background-position: 0 -294px;
+}
+
+.icons-file {
+  background-position: 0 -406px;
+}
+
+.icons-folder3 {
+  background-position: 0 -310px;
+}
+
+.icons-heart {
+  background-position: 0 -470px;
+}
+
+.icons-info {
+  background-position: 0 -438px;
+}
+
+.icons-menu {
+  background-position: 0 -502px;
+}
+
+.icons-pencil {
+  background-position: 0 -486px;
+}
+
+.icons-redo2 {
+  background-position: 0 -198px;
+}
+
+.icons-star-empty {
+  background-position: 0 -342px;
+}
+
+.icons-star-half {
+  background-position: 0 -390px;
+}
+
+.icons-star {
+  background-position: 0 -454px;
+}
