@@ -1,4 +1,4 @@
-# Sass and Compass in Action code samples
+### Sass and Compass in Action code samples
 
 This repository includes the code samples for [Sass and Compass in
 Action][book] available in hard copy and digital formats from [Manning][book].
